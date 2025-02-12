@@ -19,8 +19,8 @@
             <a href="https://space.bilibili.com/2425256"><img src="assets/bilibili-mark.svg" class="iico" /></a>
             <a href="https://github.com/b6462"><img src="assets/github-mark.svg" class="iico"/></a>
             <div class="switch">
-              <input id="language-toggle" class="check-toggle check-toggle-round-flat" type="checkbox">
-              <label for="language-toggle"></label>
+              <input id="language-Switch" class="check-toggle check-toggle-round-flat" type="checkbox">
+              <label for="language-Switch"></label>
               <span class="on">中文</span>
               <span class="off">ENG</span>
             </div>
@@ -31,147 +31,276 @@
 
     <hr>
 
-    <div id="history" class="container">
+    <div id="contentCHN" class="content active">
+      <div id="history" class="container">
 
-      <div class="entry row">
-        <div class="timespan">
-          2023 -
+        <div class="entry row">
+          <div class="timespan">
+            2023 -
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/tencent_hist.png" />
+          </div>
+          <div class="desc">
+            在<a href="http://ieg.tencent.com/">腾讯IEG</a>担任动画技术美术.
+          </div>
         </div>
-        <div class="ico">
-          <div class="entry-dot"></div>
-          <img src="assets/tencent_hist.png" />
+  
+        <div class="entry row">
+          <div class="timespan">
+            2021 - 2023
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/herogames_hist.jpeg" />
+          </div>
+          <div class="desc">
+            加入<a href="https://www.herogame.com/">英雄游戏</a>（前英雄互娱）Advanced-Tech-Group (ATG)，担任初级技术美术
+            <br>
+            在这里尝试了许多(渲染\过程生成\VFX\AIGC etc.)工作后选择了动画作为主攻方向
+          </div>
         </div>
-        <div class="desc">
-          Joined <a href="http://ieg.tencent.com/">Tencent IEG</a> as Animation Tech-Artist.
+  
+        <div class="entry row">
+          <div class="timespan">
+            2017 - 2021
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/ustb_hist.png" />
+          </div>
+          <div class="desc">
+            北京科技大学-智能科学与技术-BEng，虽然没有从事AI行业, 但也没全都抛下<a href="#port_01">[1]</a>. 
+            <br>
+            期间制作了许多游戏（大部分用来给小组作业做可视化），从此走上了游戏制作的不归路
+          </div>
         </div>
-      </div>
-
-      <div class="entry row">
-        <div class="timespan">
-          2021 - 2023
-        </div>
-        <div class="ico">
-          <div class="entry-dot"></div>
-          <img src="assets/herogames_hist.jpeg" />
-        </div>
-        <div class="desc">
-          Joined <a href="https://www.herogame.com/">Hero Games</a> (formerly Hero Entertainment) as a junior technical artist in the Advanced-Tech-Group (ATG) division. 
-          <br>
-          This is where I (temporarly) settled with animation-tech-art after venturing various duties (Rendering\PCG\VFX\AIGC etc.)
-        </div>
-      </div>
-
-      <div class="entry row">
-        <div class="timespan">
-          2017 - 2021
-        </div>
-        <div class="ico">
-          <div class="entry-dot"></div>
-          <img src="assets/ustb_hist.png" />
-        </div>
-        <div class="desc">
-          BEng at the University of Science and Technology Beijing (USTB) major in Intelligence Science and Technology. Despite what the name suggests, I never really got into the AI industry, but nor did I ever left<a href="#port_01">[1]</a>. 
-          <br>
-          This is where I was exposed to a lethal dosage of game developments (mostly group project visualizations) and treded down the dark corridors of indigame developments.
-        </div>
-      </div>
-    </div>
-
-    <div style="background-color: #eee; padding-top: 1px; margin-top: 50px; padding-bottom: 30px;">
-      <div class="container">
-        <div class="ctitle">Blogs</div>
-        <div>Most of my blogs are stored locally for fast referencing, and they are a mess, occasionally I refine a few and post them here:</div>
-        <ul class="nodot">
-          <li>TO BE ADDED</li>
-        </ul>
-      </div>
       </div>
   
-
-    <div style="background-color: #eee; padding-top: 1px; margin-top: 10px;">
-      <div id="projects" class="container">
-        <div class="ctitle">Projects</div>
-        <div class="row">
-          <div class="card">
-            <a href="https://github.com/b6462/ComputerAnimationPlayground">
-              <div class="ccimg"><img src="assets/proj_thumb_01.png" /></div>
-            </a>
-            <div class="cdesc">Animation playground</div>
+      <div style="background-color: #eee; padding-top: 1px; margin-top: 50px; padding-bottom: 30px;">
+        <div class="container">
+          <div class="ctitle">文章</div>
+          <div>我的大部分文章都存在本地，偶尔会整理一些发到这里:</div>
+          <ul class="nodot">
+            <li>TO BE ADDED</li>
+          </ul>
+        </div>
+        </div>
+    
+  
+      <div style="background-color: #eee; padding-top: 1px; margin-top: 10px;">
+        <div id="projects" class="container">
+          <div class="ctitle">项目</div>
+          <div class="row">
+            <div class="card">
+              <a href="https://github.com/b6462/ComputerAnimationPlayground">
+                <div class="ccimg"><img src="assets/proj_thumb_01.png" /></div>
+              </a>
+              <div class="cdesc">Animation playground</div>
+            </div>
+            <div class="card">
+              <a href="https://github.com/b6462/DOFfer">
+                <div class="ccimg"><img src="assets/proj_thumb_02.png" /></div>
+              </a>
+              <div class="cdesc">DOFfer 绑定脚本集</div>
+            </div>
           </div>
-          <div class="card">
-            <a href="https://github.com/b6462/DOFfer">
-              <div class="ccimg"><img src="assets/proj_thumb_02.png" /></div>
-            </a>
-            <div class="cdesc">DOFfer rigging scripts</div>
+        </div>
+      </div>
+  
+      <div id="pet-projects" class="container">
+        <div class="ctitle">迷你项目</div>
+  
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_00.jpg" /></div>
+          <div class="pdesc"><a href="https://www.bilibili.com/video/BV17z4y117Bs/">视差测试</a>, 21年找工作时做的小原型, 只使用了很基本的Unity技术和大量的Trick.</div>
+          <div class="pend"></div>
+        </div>
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_01.png" /></div>
+          <div class="pdesc">
+            <a href="https://github.com/b6462/Tetris_PSO">Tetris PSO</a> 是为我本科毕业论文制作的可视化框架, 在LOVE2D引擎中使用lua完成, 之后重构到了pygame框架中, 不过代码很遗憾丢失掉了
+            <br>
+            图中是这个框架在一台 <a href="https://forum.clockworkpi.com/c/gameshell/5">gameshell</a> 掌机上运行的状态.
+          </div>
+          <div class="pend"></div>
+        </div>
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_02.png" /></div>
+          <div class="pdesc"><a href="https://github.com/b6462/Arduino_projects">Arduino 井字棋</a>, 我在大学早期制作的游戏项目之一, 使用了一台ArduinoUNO、一个模拟摇杆和一块液晶显示屏.</div>
+          <div class="pend"></div>
+        </div>
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_03.png" /></div>
+          <div class="pdesc">
+            <a href="https://github.com/b6462/YeetpackJoyride">Yeetpack Joyride</a> - jetpack joyride的翻版, 我的第一个游戏项目, 使用<a href="http://www.rgsoft.cn/page41">FunCode引擎</a>用C++写制.
+            <br>
+            我强烈建议任何人都不要去碰这个引擎, 使用Godot就好, 或者pygame, 你用pico-8都成, 只要你不碰funcode
+          </div>
+  
+          <div class="pend"></div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="ctitle">MISC</div>
+        <ul style="padding-left: 10px;">
+          <li></li>
+        </ul>
+      </div>
+  
+      <div class="container">
+        <div class="ctitle">Appendix</div>
+        <ul style="padding-left: 10px;">
+          <li id="port_01">[1] 这个网页的框架受到 <a href="https://karpathy.ai/">Andrej Karpathy</a> 主页的启发, 我主要通过他的频道和课程来跟进行业进展.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div id="contentENG" class="content">
+      <div id="history" class="container">
+
+        <div class="entry row">
+          <div class="timespan">
+            2023 -
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/tencent_hist.png" />
+          </div>
+          <div class="desc">
+            Joined <a href="http://ieg.tencent.com/">Tencent IEG</a> as Animation Tech-Artist.
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2021 - 2023
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/herogames_hist.jpeg" />
+          </div>
+          <div class="desc">
+            Joined <a href="https://www.herogame.com/">Hero Games</a> (formerly Hero Entertainment) as a junior technical artist in the Advanced-Tech-Group (ATG) division. 
+            <br>
+            This is where I settled with animation-tech-art after venturing various duties (Rendering\PCG\VFX\AIGC etc.)
+          </div>
+        </div>
+  
+        <div class="entry row">
+          <div class="timespan">
+            2017 - 2021
+          </div>
+          <div class="ico">
+            <div class="entry-dot"></div>
+            <img src="assets/ustb_hist.png" />
+          </div>
+          <div class="desc">
+            BEng at the University of Science and Technology Beijing (USTB) major in Intelligence Science and Technology. Despite what the name suggests, I never really got into the AI industry, but nor did I ever left<a href="#port_01">[1]</a>. 
+            <br>
+            This is where I was exposed to a lethal dosage of game developments (mostly group project visualizations) and treded down the dark corridors of indigame developments.
           </div>
         </div>
       </div>
-    </div>
-
-    <div id="pet-projects" class="container">
-      <div class="ctitle">pet projects</div>
-
-      <div class="project">
-        <div class="pico"><img src="assets/petProj_thumb_00.jpg" /></div>
-        <div class="pdesc"><a href="https://www.bilibili.com/video/BV17z4y117Bs/">Parallax concept </a>, an early prototype I made when looking for my first job back in 2021, with bascis Unity skills and lots of tricks.</div>
-        <div class="pend"></div>
-      </div>
-      <div class="project">
-        <div class="pico"><img src="assets/petProj_thumb_01.png" /></div>
-        <div class="pdesc">
-          <a href="https://github.com/b6462/Tetris_PSO">Tetris PSO</a> is the framework I built as a visualizer for my Bachelor's thesis, written in lua using the LOVE2D engine, it was later refactored to fit the pygame framework, but the code was unfortunately lost.
-          <br>
-          The thumbnail is the framework running on a <a href="https://forum.clockworkpi.com/c/gameshell/5">gameshell</a> handheld.
+  
+      <div style="background-color: #eee; padding-top: 1px; margin-top: 50px; padding-bottom: 30px;">
+        <div class="container">
+          <div class="ctitle">Writings</div>
+          <div>Most of my blogs are stored locally for fast referencing, and they are a mess, occasionally I refine a few and post them here:</div>
+          <ul class="nodot">
+            <li>TO BE ADDED</li>
+          </ul>
         </div>
-        <div class="pend"></div>
-      </div>
-      <div class="project">
-        <div class="pico"><img src="assets/petProj_thumb_02.png" /></div>
-        <div class="pdesc"><a href="https://github.com/b6462/Arduino_projects">Arduino Tic-tac-toe </a>, one of my earliest gameDev projects in college, also the most unnecessarily complicated regex I've ever written.</div>
-        <div class="pend"></div>
-      </div>
-      <div class="project">
-        <div class="pico"><img src="assets/petProj_thumb_03.png" /></div>
-        <div class="pdesc">
-          <a href="https://github.com/b6462/YeetpackJoyride">Yeetpack Joyride</a> - a copy of jetpack joyride, my first ever game project, written with C++ in <a href="http://www.rgsoft.cn/page41">FunCode engine</a>.
-          <br>
-          It is recommended that you avoid this engine at all costs, just use godot, or pygame, hell even pico-8, just not this.
         </div>
-
-        <div class="pend"></div>
+    
+  
+      <div style="background-color: #eee; padding-top: 1px; margin-top: 10px;">
+        <div id="projects" class="container">
+          <div class="ctitle">Projects</div>
+          <div class="row">
+            <div class="card">
+              <a href="https://github.com/b6462/ComputerAnimationPlayground">
+                <div class="ccimg"><img src="assets/proj_thumb_01.png" /></div>
+              </a>
+              <div class="cdesc">Animation playground</div>
+            </div>
+            <div class="card">
+              <a href="https://github.com/b6462/DOFfer">
+                <div class="ccimg"><img src="assets/proj_thumb_02.png" /></div>
+              </a>
+              <div class="cdesc">DOFfer rigging scripts</div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-
-    <div class="container">
-      <div class="ctitle">MISC</div>
-      <ul style="padding-left: 10px;">
-        <li></li>
-      </ul>
-    </div>
-
-    <div class="container">
-      <div class="ctitle">Appendix</div>
-      <ul style="padding-left: 10px;">
-        <li id="port_01">[1] This page is highly inspired by the homepage of <a href="https://karpathy.ai/">Andrej Karpathy</a>, who's AI courses I've been following along to keep up with the AI industry.</li>
-      </ul>
+  
+      <div id="pet-projects" class="container">
+        <div class="ctitle">pet projects</div>
+  
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_00.jpg" /></div>
+          <div class="pdesc"><a href="https://www.bilibili.com/video/BV17z4y117Bs/">Parallax concept </a>, an early prototype I made when looking for my first job back in 2021, with bascis Unity skills and lots of tricks.</div>
+          <div class="pend"></div>
+        </div>
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_01.png" /></div>
+          <div class="pdesc">
+            <a href="https://github.com/b6462/Tetris_PSO">Tetris PSO</a> is the framework I built as a visualizer for my Bachelor's thesis, written in lua using the LOVE2D engine, it was later refactored to fit the pygame framework, but the code was unfortunately lost.
+            <br>
+            The thumbnail is the framework running on a <a href="https://forum.clockworkpi.com/c/gameshell/5">gameshell</a> handheld.
+          </div>
+          <div class="pend"></div>
+        </div>
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_02.png" /></div>
+          <div class="pdesc"><a href="https://github.com/b6462/Arduino_projects">Arduino Tic-tac-toe </a>, one of my earliest gameDev projects in college, built with an ArduinoUno, an analog stick and a LCD screen on a breadboard.</div>
+          <div class="pend"></div>
+        </div>
+        <div class="project">
+          <div class="pico"><img src="assets/petProj_thumb_03.png" /></div>
+          <div class="pdesc">
+            <a href="https://github.com/b6462/YeetpackJoyride">Yeetpack Joyride</a> - a copy of jetpack joyride, my first ever game project, written with C++ in <a href="http://www.rgsoft.cn/page41">FunCode engine</a>.
+            <br>
+            It is recommended that you avoid this engine at all costs, just use godot, or pygame, hell even pico-8, just not this.
+          </div>
+  
+          <div class="pend"></div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <div class="ctitle">MISC</div>
+        <ul style="padding-left: 10px;">
+          <li></li>
+        </ul>
+      </div>
+  
+      <div class="container">
+        <div class="ctitle">Appendix</div>
+        <ul style="padding-left: 10px;">
+          <li id="port_01">[1] This page is highly inspired by the homepage of <a href="https://karpathy.ai/">Andrej Karpathy</a>, who's AI courses I've been following along to keep up with the AI industry.</li>
+        </ul>
+      </div>
     </div>
 
     <br><br><br><br><br><br><br><br><br><br><br>
 
-    <!-- attempt hiding from spambots :p -->
-    <script type="text/javascript">
-      const rot13 = (message) => {
-        const alpha = 'abcdefghijklmnopqrstuvwxyzabcdefghijklmABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLM';
-        return message.replace(/[a-z]/gi, letter => alpha[alpha.indexOf(letter) + 13]);
-      }
-      var e_is_shown = false;
-      document.getElementById('iemail').addEventListener("click", function(){
-        let demail = document.getElementById('demail');
-        let msg = "naqerw.xnecngul" + "@" + "tznvy.pbz<oe>V'z fbeel ohg V trg jnl gbb zhpu rznvy naq vg vf birejuryzvat. V bayl znantr gb ercyl gb ~1% bs vg, naq vs jr qba'g xabj rnpu bgure crefbanyyl, vg vf n ybg pybfre gb 0%. Cyrnfr qba'g \"gnxr lbhe fubg\", naq fbeel :("
-        demail.innerHTML = rot13(msg);
-        demail.style.opacity = e_is_shown ? 0 : 1;
-        e_is_shown = !e_is_shown;
-      })
+    <script>
+      const switchInput = document.getElementById('language-Switch');
+      const contentCH = document.getElementById('contentCHN');
+      const contentENG = document.getElementById('contentENG');
+
+      switchInput.addEventListener('change', () => {
+            if (switchInput.checked) {
+                contentCH.classList.remove('active');
+                contentENG.classList.add('active');
+            } else {
+                contentCH.classList.add('active');
+                contentENG.classList.remove('active');
+            }
+        });
     </script>
   </body>
 </html>

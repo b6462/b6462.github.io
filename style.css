@@ -354,3 +354,10 @@ hr {
   input.check-toggle-round-flat:checked + label:after {
     margin-left: 44px;
   }
+
+  .content {
+    display: none;
+  }
+    .content.active {
+    display: block;
+  }
